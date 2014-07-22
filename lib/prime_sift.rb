@@ -9,3 +9,8 @@ def sieve (input_num)
   end
   input_array
 end
+
+def sieve_nth (input_num)
+  input_array = sieve(10000)
+  input_array[input_num - 1]
+end
